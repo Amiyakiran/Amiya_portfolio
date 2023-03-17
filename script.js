@@ -1,12 +1,4 @@
-/* typing effect */
-/* var typed = new Typed(".typing",{
-    strings:["","MEA(R)N Stack Developer","MEA(R)N Stack Developer"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
 
-})
- */
 /* aside */
 const nav = document.querySelector(".nav"),
 navList = nav.querySelectorAll("li"),

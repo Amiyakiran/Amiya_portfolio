@@ -52,7 +52,7 @@
                     <div class="row">
                         <div class="home-info padd-15" style="margin-bottom: 15px;">
                             <h3 class="hello">Hi, I'am <span class="name">Amiya Kiran</span></h3>
-                            <h3 class="my-profession">A &nbsp; <span class="typing"> MEA(R)N Stack Developer</span></h3>
+                            <h3 class="my-profession">A &nbsp; <span class="type" style="color: var(--skin-color);"> </span></h3>
                             <p>I'm a passionate and smart working individual who is always looking to improve my skills and learn new technologies. I am proficient in web development (MEA(R)N Stack) and am excited about translating network related business requirements into technical solutions.</p>
                            <div style="text-align: center;"> <a href="#About" data-section-index="1" class="btn hire-me">Know More About Me &nbsp;<i class="fa fa-arrow-right"></i></a></div >
                         </div>
@@ -562,6 +562,18 @@
     <script src="./script.js"></script>
     <script src="./style-switcher.js"></script>
     <!-- for typing effect -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['MEA(R)N Stack Developer','MEA(R)N Stack Developer'],
+            typeSpeed: 100,
+            BackSpeed: 100,
+            loop:true
+  });
+    </script>
 </body>
 </html>
